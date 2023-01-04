@@ -32,10 +32,7 @@ function isPalindrome(string) {
     // Return the longest palindrome     
     let conunt = 0;  
     let leng = string.length;
-    // ignore spaces " " 
-    if(string[0] != string[leng - 1])
-       return;
-     
+        
         for(let i = 0; i < leng; i++){               
             if(string[i] === string[leng - 1 - i])                 
                conunt++;                                    
